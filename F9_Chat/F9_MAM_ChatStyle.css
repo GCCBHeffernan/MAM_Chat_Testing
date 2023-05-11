@@ -1,0 +1,108 @@
+/*Hide provider message from Five9*/
+.provider-text {
+    display: none;
+}
+
+/*Minimized and Maximized "Chat Now"/"Chat" button*/
+.five9-chat-button {
+    background-color: #85c54a !important;
+    background: #85c54a !important;
+}
+
+/*"Start Chat" Inside Chat Form*/
+.five9-action-btn {
+    border: 1px solid #1e6a91 !important;
+    background-color: #85c54a !important;
+    color: #fff !important;
+}
+
+.five9-action-btn:focus:not(disabled) {
+    outline: none;
+    box-shadow: 0 0 6px 0 #85c54a !important;
+    background-color: #85c54a !important;
+}
+
+.five9-action-btn:hover:not(disabled) {
+    background-color: #85c54a !important;
+}
+
+/*Chat header behind logo*/
+.fill-logo {
+    background-color: #205D34 !important;
+}
+
+.ui-header {
+    border-width: 0 !important;
+    background-color: #205D34 !important;
+    color: #fff !important;
+}
+
+/*Highlighting around fields for the chat sumbission form*/
+legend,
+.ui-input-text input,
+.ui-input-search input {
+    color: inherit;
+    text-shadow: inherit;
+}
+
+.ui-input-text input,
+.ui-input-search input {
+    background-color: #fff !important;
+}
+
+.ui-input-text:not(.validation-error),
+textarea:not(.validation-error) {
+    border: 1px solid #cccece !important;
+}
+
+.ui-input-text:hover:not(.validation-error),
+textarea:hover:not(.validation-error) {
+    border: 1px solid #85c54a !important;
+    outline: 0 !important;
+}
+
+/*Active chat message container*/
+.message-container {
+    background: #eee !important;
+    border: 1px solid #ccc !important;
+}
+
+/*Active chat "send" button for reply*/
+#conversation-page #send-button {
+    background-color: #85c54a !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    margin: 4px 2px !important;
+}
+
+/*Terminate chat overlay*/
+
+.ui-overlay-a.in {
+    background: #fff !important;
+}
+
+.ui-popup-screen.in {
+    opacity: 1 !important;
+}
+
+
+/*Loading icon before form is pulled to client side*/
+div.loading-image {
+    width: 100%;
+    height: 200px;
+    background-image: url("F9_BNH_Chat_Loader.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+/*Service unavailable message*/
+/*.chat-sad-image {
+     width: 100%;
+     height: 200px;
+     background-image: url(../../Common/images/chat-sad.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 200px 200px;
+}
+*/
